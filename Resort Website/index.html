@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mirage Resort</title>
+
+    <style>
+        h1 {
+            color: darkgreen;
+            background-color: lightgreen;
+            font-family: 'Rubik Iso', cursive;
+            height: 100px;
+            width: 800px;
+            border: 4px solid green;
+            border-radius: 20px;
+            border-top: 2px solid green;
+            border-left: 30px solid green;
+            border-right: 30px solid green;
+            line-height: 3em;
+            margin-left: 150px;
+        }
+        h1:hover{
+            color: black;
+            background-color: red;
+            border: 5px solid blue;
+            
+        }
+
+        #firstpara {
+            font-family: 'Rubik Iso', cursive;
+            color: rgb(73, 19, 173);
+            padding: 10px;
+            margin-left: 110px;
+            margin-bottom: 100px;
+            margin-top: 50px;
+        }
+
+        #secondpara {
+            color: rgb(75, 11, 194);
+            font-family: 'Rubik Iso', cursive;
+            height: 10px;
+            font-size: 30px;
+            margin-left: 20px;
+
+        }
+
+        #thirdpara {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+            height: 15px;
+            color: rgb(63, 35, 224);
+            background-image: url(https://www.himalayanmentor.com/assets/images/nepal/bungy-jump-in-nepal.webp);
+
+            height: 500px;
+            width: 1000px;
+            background-repeat: no-repeat;
+            background-position: 20px 100px;
+            padding: 10px;
+        }
+
+        #divtag {
+            border: 2px solid red;
+            height: 500px;
+            width: 500px;
+            line-height: 2em;
+            text-align: center;
+            margin-left: 10px;
+
+        }
+
+        body {
+            background-color: rgb(72, 247, 101);
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Mirage Resort : Your Ultimate Vacation Zone. </h1>
+    <p id="firstpara">Mirage Resort is nepal's top rated Resort where you can have the most amazing vacation with your
+        friends and your family! </p>
+
+    <p id="secondpara">Our main Stay House:&#x21d3</p> <!--Stay house-->
+    <img src="Resort1.jpg" alt="img1">
+
+    <p id="thirdpara">Bungee:&#x21d3</p> <!-- Bungee -->
+    <img src="bungee1.jpg" alt="img2">
+    <img src="bungee2.jpg" alt="">
+
+
+    <div id="divtag">
+        <h2>submit Your details here..</h2>
+
+        <form action="backend.php">
+            Name: <input type="text" name="" id="">
+            <br><br>
+            Adress: <input type="text" name="" id="">
+            <br><br>
+            Email: <input type="email" name="Myemail" id="">
+            <br><br>
+            Are you over 16?: <input type="checkbox" name="eligibility" id="">
+            <br><br>
+            Gender: Male<input type="radio" name="My gender" id=""> Female <input type="radio" name="My gender" id="">
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <br><br>
+            <input type="reset" value="Reset Now">
+
+        </form>
+    </div>
+
+</body>
+
+</html>

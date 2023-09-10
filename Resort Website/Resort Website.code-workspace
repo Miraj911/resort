@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../My website/.vscode"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}
